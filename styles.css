@@ -64,13 +64,13 @@ body {
     border: 2px solid #d1c4e9;
   }
 
-@media screen and (max-width: 600px) and (min-height: 725px) {
+@media screen and (max-width: 600px) and (min-height: 550px) {
   .hero {
     background-position-x: -473px;
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 600px) and (min-height: 725px) {
+@media screen and (min-width: 350px) and (max-width: 600px) and (min-height: 550px) {
   .hero {
     background-position-x: -550px;
   }
