@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+        The Stoic CTO: A biweekly newsletter on tech startups by a first time
+        founder.
+    </title>
+    <meta name="description" content="a biweekly newsletter on tech startups with a hint of philosophy by a first-time technical co-founder."/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Nunito+Sans&display=swap" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>The Stoic CTO</h1>
+            <h2>
+                a biweekly newsletter on tech startups with a hint of philosophy
+            </h2>
+        </div>
+    </section>
+    <main>
+        <div class="profile">
+            <p class="bio">
+                Hi there, thanks for your interest in my newsletter. I caught the
+                startup bug towards the end of my computer science degree in 2015.
+                Since graduating, I have worked at various early stage FinTech
+                startups and SaaS businesses.
+                <br />
+                <br />
+                In April 2019, I quit my existing role to build
+                <a target="_blank" href="https://www.justfulfil.com">an eCommerce logistics startup</a>
+                full-time.
+                <br />
+                <br />
+                Don't let the title &ldquo;CTO&rdquo; confuse you. I am simply a
+                hands-on technical founder; part of a nimble yet effective development
+                team.
+                <br />
+                <br />
+                In this newsletter, I will be sharing my struggles and learnings as a
+                first-time founder. Topics will include development methodologies,
+                software architecture and organizing development teams. I might
+                occasionally write about product development, sales and marketing as
+                well.
+                <br />
+                <br />
+                I will be writing for a technical audience in mind, developers
+                primarily. However anyone interested in tech startups might find
+                valuable insights in this newsletter.
+                <br />
+                <br />
+                If this sounds interesting, you can join me on this journey by
+                subscribing below. And don't worry I hate spam as much as you do, so
+                strictly one email every 2 weeks. No ads, no data sharing, no
+                bullshit.
+                <br />
+                <br />
+                Let's do this.
+            </p>
+            <form onsubmit="return submitForm(event);" name="email-form">
+                <div class="btn-container">
+                    <label class="field a-field a-field_a1">
+                        <input class="field__input a-field__input" type="email" name="email"
+                            placeholder="e.g. geek@gmail.com" required />
+                        <span class="a-field__label-wrap">
+                            <span class="a-field__label">Your E-mail</span>
+                        </span>
+                    </label>
+                    <button id="subscribe-btn">Subscribe</button>
+                </div>
+            </form>
+            <div class="img-wrapper">
+                <img src="./images/ersel-aker.jpg" alt="Ersel Aker photo" class="profile-img" />Ersel Aker <br /><br />
+                Technical Co-founder at JustFulfil
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
